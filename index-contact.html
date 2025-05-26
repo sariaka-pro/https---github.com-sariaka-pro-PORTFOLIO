@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="slytes.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body id="COLOR2">
+    <header id="headPageLight" class="lightlogo"></header>
+    <section>
+        <h2 class="titre-contact">CONTACT</h2>
+    </section>
+    <form id="contactForm">
+        <div class="nom">
+          <label for="name" class="info-contact">Nom/prénom</label><br>
+          <input type="text" name="name" id="name">
+          <span class="error" id="nameError" style="display:none">Saisissez au moins 16 caractères</span><br>
+        </div>
+      
+        <div class="email">
+          <label for="email" class="info-contact">E-mail</label><br>
+          <input type="email" name="email" id="email">
+          <span class="error" id="emailError" style="display:none">Entrez une adresse email valide</span><br>
+        </div>
+      
+        <div class="commentaire">
+          <label for="comment" class="info-contact">Message</label><br>
+          <input type="text" name="comment" id="comment">
+        </div>
+      
+        <div class="bouton-sub">
+          <button type="submit" class="btn-sub">ENVOYER</button>
+        </div>
+      </form>
+<footer id="footer-light">
+    <div>
+    <p class="footer-acc">© 2025 by Sariaka Ramanantseheno | sariakaschool@yahoo.com</p>
+</div>
+<div class="footer-photo">
+    <img src="../SPRINT - FINAL/images/GIT-light.png" alt="GIT-light" class="git-photo"><a href ="#" onclick="addLinkSocial()"></a>
+    <img src="../SPRINT - FINAL/images/LINK-light.png" alt="LINK-light" class="link-photo"><a href="https://www.linkedin.com/in/sariaka-ramanantseheno-8056b414a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" onclick="addLinkSocial()">
+</div>
+</footer>
+<script src="script-contact.js" type="text/Javascript"></script>
+<script src="script-header.js" type="text/Javascript"></script>
+</body>
+</html>

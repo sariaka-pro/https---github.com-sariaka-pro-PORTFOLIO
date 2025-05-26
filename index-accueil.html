@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon portfolio</title>
+    <link href="slytes.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+</head>
+<body id="LIGHT">
+    <header id="headPageDark" class="darklogo"></header>
+<section id="presentation">
+    <div class="bloc1">
+        <p class="text1-profile">Bienvenue dans l’univers de Sariaka, ici, je façonne, j'explore, je teste. Le design n’est pas qu’une discipline pour moi, c’est un terrain de jeu infini où je développe mes idées, mes compétences, et parfois même de nouvelles façons de voir. Ce portfolio est un aperçu de mes expérimentations graphiques et web — entre intuition, apprentissage et création.</p>
+        <a href="../SPRINT - FINAL/index-apropos.html"><button class="btn-profile">DÉCOUVREZ PLUS</button></a>
+    </div>
+    <div class="bloc2">
+        <img src="../SPRINT - FINAL/images/image-profile.jpg" alt="image-profile" id="img-profile">
+    </div>
+</section>
+<h1 class="title-acc">MES PROJETS</h1>
+<section class="mesprojets"> 
+    <div>
+        <div class="pro-1">
+        <p class="titre-pro">JS/HTML/CSS<hr></p>
+        </div>
+        <div class="btn-projet">
+        <button onclick="document.location.href='index-portfolio.html?categorie=js'"class="btn-pro">CLIQUEZ-ICI</button>
+        </div>
+    </div>
+    <div>
+        <div class="pro-1">
+        <p class="titre-pro">PERSONNELS<hr></p>
+        </div>
+        <div class="btn-projet">
+        <button onclick="document.location.href='index-portfolio.html?categorie=personnel'" class="btn-pro">CLIQUEZ-ICI</button>
+        </div>
+    </div>
+    <div>
+        <div class="pro-1">
+        <p class="titre-pro">RECOMMENDATIONS<hr></p>
+        </div>
+        <div class="btn-projet">
+        <button onclick="document.location.href='index-portfolio.html?categorie=recommendation'" class="btn-pro">CLIQUEZ-ICI</button>
+        </div>
+    </div>
+</section>
+<section id="citations"></section> <!--faire un tableau d'objets qui défile au click-->
+<footer id="footer-dark">
+    <div>
+    <p class="footer-acc">© 2025 by Sariaka Ramanantseheno | sariakaschool@yahoo.com</p>
+</div>
+<div class="footer-photo">
+    <a href ="https://github.com/sariaka-pro" target="_blank"><img src="../SPRINT - FINAL/images/GIT-dark.png" alt="GIT-dark" class="git-photo"></a>
+    <a href="https://www.linkedin.com/in/sariaka-ramanantseheno-8056b414a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="../SPRINT - FINAL/images/LINK-dark.png" alt="LINK-dark" class="link-photo"></a>
+    </div>
+    </footer>
+<script src="script-accueil.js" type="text/Javascript"></script>
+<script src="script-header.js" type="text/Javascript"></script>
+<script src="script-portfolio.js" type="text/Javascript"></script>
+</body>
+</html>
