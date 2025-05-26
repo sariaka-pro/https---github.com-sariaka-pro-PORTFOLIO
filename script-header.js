@@ -9,7 +9,7 @@ if(document.getElementById("headPageDark")){
         const aimg = document.createElement("a");
         const img = document.createElement("img");
 
-        aimg.href = "index-accueil.html";
+        aimg.href = "index.html";
         img.setAttribute('src','images/logo-dark.png'); 
         header.appendChild(aimg);
         aimg.appendChild(img); 
@@ -45,7 +45,7 @@ if(document.getElementById("headPageLight")){
         const aimg1 = document.createElement("a");
         const img = document.createElement("img");
 
-        aimg1.href = "index-accueil.html";
+        aimg1.href = "index.html";
         img.setAttribute('src','images/logo-light.png'); 
         header.appendChild(aimg1); 
         aimg1.appendChild(img);
